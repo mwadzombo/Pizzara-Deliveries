@@ -16,6 +16,10 @@ a {
   text-decoration: none;
 }
 
+body {
+  font-family: body font;
+}
+
 .nav {
   background-color: #f4f7fb;
 }
@@ -24,4 +28,23 @@ a {
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
+}
+.nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 1em;
+}
+.nav ul li {
+  padding: 1em;
+  cursor: pointer;
+}
+.nav ul li a {
+  color: #000;
+  padding: 1em;
+}
+.nav ul li a:hover {
+  background-color: #EEA539;
+  color: #fff;
 }
